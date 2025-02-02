@@ -112,9 +112,9 @@ console.log(typeof price); // result -- number
 
 
 //2.String - Represents a sequence of characters.
-let greeting = 'Hello world';
-console.log(greeting); // result -- Hello world
-console.log(typeof greeting); // result -- string 
+let greet = 'Hello world';
+console.log(greet); // result -- Hello world
+console.log(typeof greet); // result -- string 
 
 //3.Boolean - Represents a logical entity and can have two values: true or false.
 let isActive = true;
@@ -194,53 +194,102 @@ console.log(now); // result -- current date
 
 //1.Arithmetic Operators - Arithmetic operators are used to perform basic mathematical operations
 //1.1)Addition (+)
+let sum = 5+2;
+console.log(sum);
 
 //1.2)Subtraction (-)
+let sub = 5-2;
+console.log(sub);
 
 //1.3)Multiplication (*)
+let multi = 5*2;
+console.log(multi);
 
 //1.4)Division (/)
+let div = 10/2;
+console.log(div);
 
 //1.5)Modulus (%)
+let reminder = 5%2;
+console.log(reminder);
 
 //1.6)Exponentiation (**)
+let power = 2**3;
+console.log(power);
 
 //1.7)Increment (++)
+let counter = 5;
+counter++;
+console.log('increment : ' , counter);
 
 //1.8)Decrement (--)
+counter--;
+console.log("decrement : " , counter);
 
 //2.Assignment Operators - Assignment operators are used to assign values to variables.
 //2.1)Assignment (=)
+let z = 10;
+console.log('Assignment : ' , z);
 
 //2.2)Addition Assignment (+=)
+z+=2;
+console.log('Addition Assignment : ' , z);
 
 //2.3)Subtraction Assignment (-=):
+z-=2;
+console.log('Subtraction Assignment : ' , z);
 
 //2.4)Multiplication Assignment (*=):
+z*=2;
+console.log('Multiplication Assignment : ' , z);
 
 //2.5)Division Assignment (/=):
+z/=2;
+console.log('Division Assignment : ' , z);
 
 //2.6)Modulus Assignment (%=):
+z%=3;
+console.log('Modulus Assignment : ' , z);
 
 //2.7)Exponentiation Assignment (**=)
-
+let expo = 2;
+expo **=3;
+console.log('Exponentiation Assignment : ' , expo)
 //3.Comparison Operators - Comparison operators are used to compare two values.
-
+console.error('comparison operators');
 //3.1)Equal (==)
-
+console.log ('Equal 5==5 : ' , 8==8);    //result true
+console.log ("Equal '5'==5 : " , '5'==5);  //result true
 //3.2)Strict Equal (===)
+console.log ('Equal 5===5 : ' , 5===5);    //result true
+console.log ('Equal "5"===5 : ' , '5'===5);  //result false
 
 //3.4)Not Equal (!=)
+console.log ('Not Equal 5!=3 : ' , 5!=3);    //result true
+console.log ('Not Equal 5!=5 : ' , 5!=5);  //result false
+console.log ("Not Equal '5'!=5 : " , '5'!=5);  //result false
+
 
 //3.5)Strict Not Equal (!==)
+console.log ('Not Equal 5!==3 : ' , 5!==3);    //result true
+console.log ('Not Equal 5!==5 : ' , 5!==5);  //result false
+console.log ("Not Equal '5'!==5 : " , '5'!==5);  //result true
 
 //3.6)Greater Than (>)
+console.log ('Greater than 5>3 : ' , 5>3);    //result true
+console.log ('Greater than 5>8 : ' , 5>8);    //result false
 
 //3.7)Less Than (<)
+console.log ('Less than 5<3 : ' , 5<3);    //result false
+console.log ('Less than 5<8 : ' , 5<8);    //result true
 
 //3.8)Greater Than or Equal (>=)
+console.log ('Greater than or Equal 5>=3 : ' , 5>=3);    //result true
+console.log ('Greater than or Equal 5>=5 : ' , 5>=5);    //result true
 
 //3.9)Less Than or Equal (<=)
+console.log ('Less than or Equal 5<=3 : ' , 5<3);    //result false
+console.log ('Less than or Equal 5<=8 : ' , 5<8);    //result true
 
 //4.Logical Operators - Logical operators are used to combine multiple conditions.
 
