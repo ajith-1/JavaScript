@@ -294,24 +294,49 @@ console.log ('Less than or Equal 5<=8 : ' , 5<8);    //result true
 //4.Logical Operators - Logical operators are used to combine multiple conditions.
 
 //4.1)Logical AND (&&)
+console.log("AND", true&&true); //result true
+console.log("AND", true&&false); //result false
+console.log("AND", false&&true); //result false
+console.log("AND", false&&false); //result false
+
 
 //4.2)Logical OR (||)
+console.log("OR", true||true); //result true
+console.log("OR", true||false); //result true
+console.log("OR", false||true); //result true
+console.log("OR", false||false); //result false
+
 
 //4.3)Logical NOT (!)
+console.log("NOT", !true); //result false
+console.log("NOT", !false); //result true
 
 //Example
 
+
 // String Operators
+console.log('Hello World');
 
 //String concatenation
+console.log('Hello' + ' ' + "World")
 
 //String with Different Quotes:
+console.log("I'm getting better");
+
+console.log('I\'m getting "better"'); 
 
 //Concatenation with Object Properties:
+let userDetails={
+    id:1,
+    name:'Jane',
+};
 
-//Template literal
+console.log('Welcome ' + userDetails.name + 'your ID is' + userDetails.id);
 
-//Order Prcedence
+//Template literal( ` ` )
+console.log(`Welcome ${userDetails.name} your ID is ${userDetails.id}`);
+
+//Order Prcedence (order of operater execution)
 
 // New Examples with - and /
 
@@ -323,10 +348,32 @@ console.log ('Less than or Equal 5<=8 : ' , 5<8);    //result true
 console.log('Decision Making');
 
 // Example 1: if statement
+let temp = 27;
 
+
+if(temp>24){
+    console.log('It is Hot outside')
+}
 // Example 2: if...else statement
+let temp1 = 17;
+
+if(temp1 > 28){
+    console.log('It is Hot outside')
+}
+else{
+    console.log('It is cold outside')
+}
 
 // Example 3: else if statement
+let time = 10;
+
+if(time<12){
+    console.log('Good Morning');
+} else if(time < 18){
+cconsole.log('Good afternoon');
+} else {
+ console.log('Good evening');
+}
 
 // Example 4: Nested if statements
 // Variables
@@ -334,8 +381,36 @@ console.log('Decision Making');
 // Decision logic
 
 // Switch Statement
+let day = 1;
+
+switch (day){
+    case 1:
+        console.log('Monday');
+        break;
+    case 1:
+        console.log('Tuseday');
+        break;
+    case 1:
+        console.log('Wednesday');
+        break;
+    case 1:
+        console.log('Thursday');
+        break;
+    case 1:
+        console.log('Friday');
+        break;        
+    case 1:
+        console.log('Saturday');
+        break;
+    default:
+        console.log('Sunday');
+}
 
 //Ternary Operator
+
+let isLogin=true;
+
+let user = isLogin ? 'User Logged In' : 'User Logged out';
 
 // ---------------------------------------------------
 
